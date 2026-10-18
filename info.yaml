@@ -3,7 +3,7 @@ project:
   title:        "tetris"      # Project title
   author:       "Audris Odo Vitolins"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "tetris_"      # One line description of what your project does
+  description:  "tetris"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     25175000       # Clock frequency in Hz (or 0 if not applicable)
 

@@ -1,6 +1,6 @@
 ## How it works
 
-tetris_
+tetris
 
 ## How to test
 
