@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        "tetris"      # Project title
+  title:        "Vulkos Tetris"      # Project title
   author:       "Audris Odo Vitolins"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "tetris"      # One line description of what your project does
+  description:  "Tetris with 7-bag random pieces and next-piece preview on 640x480 VGA (TinyVGA PMOD)"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     25175000       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -24,25 +24,25 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
-  # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
+  # Inputs (buttons, active high)
+  ui[0]: "left"
+  ui[1]: "right"
+  ui[2]: "rotate"
+  ui[3]: "soft drop"
+  ui[4]: "hard drop"
   ui[5]: ""
   ui[6]: ""
   ui[7]: ""
 
-  # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  # Outputs (TinyVGA PMOD)
+  uo[0]: "R1"
+  uo[1]: "G1"
+  uo[2]: "B1"
+  uo[3]: "VSync"
+  uo[4]: "R0"
+  uo[5]: "G0"
+  uo[6]: "B0"
+  uo[7]: "HSync"
 
   # Bidirectional pins
   uio[0]: ""
